@@ -15,9 +15,9 @@ type DBConfig struct {
 func GetConfig() *Config {
 	return &Config{
 		DB: &DBConfig{
-			Dialect:  "mysql",
-			Username: "guest",
-			Password: "Guest0000!",
+			Dialect:  "postgresql",
+			Username: "test",
+			Password: "test0000!",
 			Name:     "todoapp",
 			Charset:  "utf8",
 		},
